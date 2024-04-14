@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "googlecloudtools.cloudcode",
+    "davidanson.vscode-markdownlint",
+    "techiecouch.docker-essentials",
+    "ms-vscode-remote.vscode-remote-extensionpack"
+  ]
+}
