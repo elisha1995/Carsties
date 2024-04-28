@@ -17,7 +17,7 @@ public class AuctionCreatedFaultConsumer : IConsumer<Fault<AuctionCreated>>
             await context.Publish(context.Message.Message);
         }
         else 
-        {
+        { 
             Console.WriteLine("Not an argument exception - update error dashboard somewhere");
         }
     }
